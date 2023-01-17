@@ -1,0 +1,128 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    position: fixed;
+    background-color: black;
+    top: 0;
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+}
+
+.nav {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.nav a {
+    color: seashell;
+    text-decoration: underline;
+    padding: 14px 16px;
+}
+
+main {
+    margin-top: 69px;
+}
+
+.mission-container {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+    background-position: center;
+    max-width: 1200px;
+    height: 700px;
+    margin: 30px auto;
+    display: flex;
+}
+
+.mission-text {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+}
+
+#featured-tea {
+    text-align: center;
+    margin: auto;
+}
+
+.tea-container {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.tea-container h4 {
+    margin-top: 10px;
+}
+
+.tea-panel h4 {
+    text-align: center;
+}
+
+.tea-image {
+    height: 200px;
+    width: 300px;
+}
+
+.locations-container {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+    background-position: center;
+    min-height: 550px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.location-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.locations-container h2 {
+    text-align: center;
+    padding-top: 75px;
+    margin-bottom: 15px;
+}
+
+.location-box {
+    display: flex;
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    margin: auto;
+}
+
+.contact {
+    height: 200px;
+    text-align: center;
+    margin: auto;
+}
+
+.footer {
+    text-align: left;
+    margin-left: 20px;
+}
+
